@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1001,
+        "nombre": "Cancún, México",
+        "descripcion": "Playas de arena blanca y aguas turquesas en el Caribe.",
+        "actividades": "Snorkel en arrecifes, Ruinas Mayas, Vida nocturna",
+        "costo": 1425000
+    },
+    {
+        "id": 1002,
+        "nombre": "Cusco, Perú",
+        "descripcion": "Antigua capital del Imperio Inca, cerca de Machu Picchu.",
+        "actividades": "Visita a Machu Picchu, City Tour, Valle Sagrado",
+        "costo": 1188000
+    },
+    {
+        "id": 1003,
+        "nombre": "París, Francia",
+        "descripcion": "La ciudad del amor, con icónicos monumentos y museos.",
+        "actividades": "Torre Eiffel, Museo del Louvre, Paseo por el Sena",
+        "costo": 1995000
+    },
+    {
+        "id": 1004,
+        "nombre": "Kioto, Japón",
+        "descripcion": "Corazón cultural de Japón, famoso por sus templos y jardines.",
+        "actividades": "Visita a templos, Jardines Zen, Bosque de bambú de Arashiyama",
+        "costo": 2375000
+    },
+    {
+        "id": 1005,
+        "nombre": "Roma, Italia",
+        "descripcion": "La Ciudad Eterna, llena de historia, arte y ruinas antiguas.",
+        "actividades": "Coliseo, Foro Romano, Ciudad del Vaticano, Fontana di Trevi",
+        "costo": 1852500
+    },
+    {
+        "id": 1006,
+        "nombre": "Tokio, Japón",
+        "descripcion": "Una metrópolis ultramoderna mezclada con templos y tradiciones.",
+        "actividades": "Cruce de Shibuya, Templo Senso-ji, Palacio Imperial, Akihabara",
+        "costo": 2660000
+    },
+    {
+        "id": 1007,
+        "nombre": "Sídney, Australia",
+        "descripcion": "Famosa por su icónica Casa de la Ópera y el Puente del Puerto.",
+        "actividades": "Ópera de Sídney, Playa de Bondi, The Rocks, Zoológico de Taronga",
+        "costo": 2517500
+    },
+    {
+        "id": 1008,
+        "nombre": "El Cairo, Egipto",
+        "descripcion": "A orillas del Nilo, puerta de entrada a las Pirámides de Giza.",
+        "actividades": "Pirámides de Giza y Esfinge, Museo Egipcio, Bazar Khan el-Khalili",
+        "costo": 1330000
+    },
+    {
+        "id": 1009,
+        "nombre": "Río de Janeiro, Brasil",
+        "descripcion": "Conocida por sus playas, el carnaval y la estatua del Cristo Redentor.",
+        "actividades": "Cristo Redentor, Pan de Azúcar, Playas de Copacabana e Ipanema",
+        "costo": 1520000
+    },
+    {
+        "id": 1010,
+        "nombre": "Londres, Reino Unido",
+        "descripcion": "Una ciudad global con historia, cultura y lugares emblemáticos.",
+        "actividades": "Torre de Londres, Palacio de Buckingham, London Eye, Museo Británico",
+        "costo": 2090000
+    },
+    {
+        "id": 1011,
+        "nombre": "Nueva York, EE.UU.",
+        "descripcion": "La ciudad que nunca duerme, centro de finanzas, arte y cultura.",
+        "actividades": "Times Square, Central Park, Estatua de la Libertad, Empire State",
+        "costo": 2280000
+    },
+    {
+        "id": 1012,
+        "nombre": "Dubái, EAU",
+        "descripcion": "Una ciudad de lujo y arquitectura futurista en medio del desierto.",
+        "actividades": "Burj Khalifa, The Dubai Mall, Palma Jumeirah, Safari por el desierto",
+        "costo": 2945000
+    },
+    {
+        "id": 1013,
+        "nombre": "Bangkok, Tailandia",
+        "descripcion": "Una ciudad vibrante con templos ornamentados y una animada vida callejera.",
+        "actividades": "Gran Palacio, Wat Arun, Wat Pho, Mercados flotantes",
+        "costo": 1045000
+    },
+    {
+        "id": 1014,
+        "nombre": "Estambul, Turquía",
+        "descripcion": "Donde Oriente se encuentra con Occidente, rica en historia y cultura.",
+        "actividades": "Santa Sofía, Mezquita Azul, Palacio de Topkapi, Gran Bazar",
+        "costo": 1472500
+    },
+    {
+        "id": 1015,
+        "nombre": "Ámsterdam, Países Bajos",
+        "descripcion": "Famosa por sus canales, casas estrechas y patrimonio artístico.",
+        "actividades": "Casa de Ana Frank, Museo Van Gogh, Rijksmuseum, Paseo en canal",
+        "costo": 1757500
+    },
+    {
+        "id": 1016,
+        "nombre": "Buenos Aires, Argentina",
+        "descripcion": "La 'París de Sudamérica', conocida por el tango, la carne y el fútbol.",
+        "actividades": "La Boca (Caminito), Recoleta, Show de Tango, Palermo",
+        "costo": 1235000
+    },
+    {
+        "id": 1017,
+        "nombre": "Praga, República Checa",
+        "descripcion": "Una ciudad de cuento de hadas con un castillo, un puente icónico y un reloj astronómico.",
+        "actividades": "Castillo de Praga, Puente de Carlos, Plaza de la Ciudad Vieja",
+        "costo": 1378000
+    },
+    {
+        "id": 1018,
+        "nombre": "Singapur",
+        "descripcion": "Una ciudad-estado futurista con jardines espectaculares y comida increíble.",
+        "actividades": "Gardens by the Bay, Marina Bay Sands, Isla Sentosa, Hawker Centres",
+        "costo": 2185000
+    },
+    {
+        "id": 1019,
+        "nombre": "Madrid, España",
+        "descripcion": "Capital española, famosa por su vida nocturna, museos de arte y palacios reales.",
+        "actividades": "Museo del Prado, Palacio Real, Parque del Retiro, Gran Vía",
+        "costo": 1662500
+    },
+    {
+        "id": 1020,
+        "nombre": "Barcelona, España",
+        "descripcion": "Conocida por la arquitectura única de Gaudí y su vibrante cultura.",
+        "actividades": "Sagrada Familia, Parque Güell, Las Ramblas, Barrio Gótico",
+        "costo": 1710000
+    },
+    {
+        "id": 1021,
+        "nombre": "Venecia, Italia",
+        "descripcion": "Ciudad única construida sobre el agua, con góndolas y canales.",
+        "actividades": "Plaza de San Marcos, Puente de Rialto, Paseo en góndola",
+        "costo": 1948000
+    },
+    {
+        "id": 1022,
+        "nombre": "Florencia, Italia",
+        "descripcion": "Cuna del Renacimiento, hogar de obras maestras de arte y arquitectura.",
+        "actividades": "Catedral de Florencia, Galería Uffizi, Ponte Vecchio",
+        "costo": 1805000
+    },
+    {
+        "id": 1023,
+        "nombre": "Berlín, Alemania",
+        "descripcion": "Capital alemana, rica en historia del siglo XX y arte alternativo.",
+        "actividades": "Puerta de Brandeburgo, Muro de Berlín, Isla de los Museos",
+        "costo": 1567500
+    },
+    {
+        "id": 1024,
+        "nombre": "Múnich, Alemania",
+        "descripcion": "Famosa por el Oktoberfest, sus cervecerías y la arquitectura bávara.",
+        "actividades": "Marienplatz, Englischer Garten, Museo Alemán",
+        "costo": 1615000
+    },
+    {
+        "id": 1025,
+        "nombre": "Viena, Austria",
+        "descripcion": "Ciudad imperial con palacios majestuosos, música clásica y cafés elegantes.",
+        "actividades": "Palacio de Schönbrunn, Palacio Hofburg, Ópera Estatal de Viena",
+        "costo": 1710000
+    },
+    {
+        "id": 1026,
+        "nombre": "Atenas, Grecia",
+        "descripcion": "Cuna de la civilización occidental, dominada por la Acrópolis.",
+        "actividades": "Acrópolis y Partenón, Plaka, Museo de la Acrópolis",
+        "costo": 1520000
+    },
+    {
+        "id": 1027,
+        "nombre": "Santorini, Grecia",
+        "descripcion": "Isla icónica con casas blancas, cúpulas azules y puestas de sol legendarias.",
+        "actividades": "Ver la puesta de sol en Oia, Playas de arena negra, Fira",
+        "costo": 2090000
+    },
+    {
+        "id": 1028,
+        "nombre": "Lisboa, Portugal",
+        "descripcion": "Capital costera y montañosa, con tranvías antiguos y música de fado.",
+        "actividades": "Torre de Belém, Monasterio de los Jerónimos, Alfama",
+        "costo": 1425000
+    },
+    {
+        "id": 1029,
+        "nombre": "Dublín, Irlanda",
+        "descripcion": "Famosa por sus pubs, la cerveza Guinness y su rica historia literaria.",
+        "actividades": "Guinness Storehouse, Trinity College (Libro de Kells), Temple Bar",
+        "costo": 1615000
+    },
+    {
+        "id": 1030,
+        "nombre": "Edimburgo, Escocia",
+        "descripcion": "Capital escocesa con un imponente castillo y una ciudad medieval.",
+        "actividades": "Castillo de Edimburgo, Royal Mile, Arthur's Seat",
+        "costo": 1662500
+    },
+    {
+        "id": 1031,
+        "nombre": "Moscú, Rusia",
+        "descripcion": "Capital rusa, con la Plaza Roja, el Kremlin y coloridas cúpulas.",
+        "actividades": "Plaza Roja, Kremlin, Catedral de San Basilio, Metro de Moscú",
+        "costo": 1805000
+    },
+    {
+        "id": 1032,
+        "nombre": "San Petersburgo, Rusia",
+        "descripcion": "La 'Venecia del Norte', con palacios imperiales y el Museo del Hermitage.",
+        "actividades": "Museo del Hermitage, Palacio de Invierno, Iglesia del Salvador sobre la Sangre Derramada",
+        "costo": 1757500
+    },
+    {
+        "id": 1033,
+        "nombre": "Seúl, Corea del Sur",
+        "descripcion": "Una metrópolis moderna con palacios históricos y cultura K-pop.",
+        "actividades": "Palacio Gyeongbokgung, Myeongdong, Torre N de Seúl",
+        "costo": 1995000
+    },
+    {
+        "id": 1034,
+        "nombre": "Pekín (Beijing), China",
+        "descripcion": "Capital histórica de China, hogar de la Ciudad Prohibida y la Gran Muralla.",
+        "actividades": "Gran Muralla, Ciudad Prohibida, Plaza de Tiananmén, Palacio de Verano",
+        "costo": 1852500
+    },
+    {
+        "id": 1035,
+        "nombre": "Shanghái, China",
+        "descripcion": "El centro financiero de China, famoso por su futurista horizonte.",
+        "actividades": "El Bund, Torre de Shanghái, Jardín Yuyuan",
+        "costo": 1947500
+    },
+    {
+        "id": 1036,
+        "nombre": "Hong Kong",
+        "descripcion": "Una ciudad vertical con un horizonte impresionante y una mezcla de culturas.",
+        "actividades": "Pico Victoria, Star Ferry, Gran Buda (Tian Tan)",
+        "costo": 2280000
+    },
+    {
+        "id": 1037,
+        "nombre": "Hanói, Vietnam",
+        "descripcion": "Capital de Vietnam con arquitectura colonial francesa y un casco antiguo bullicioso.",
+        "actividades": "Casco Antiguo, Lago Hoan Kiem, Mausoleo de Ho Chi Minh",
+        "costo": 902500
+    },
+    {
+        "id": 1038,
+        "nombre": "Bahía de Ha-Long, Vietnam",
+        "descripcion": "Famosa por sus miles de islas de piedra caliza y aguas esmeralda.",
+        "actividades": "Crucero por la bahía, Kayak, Visita a cuevas",
+        "costo": 1092500
+    },
+    {
+        "id": 1039,
+        "nombre": "Siem Reap, Camboya",
+        "descripcion": "La puerta de entrada a las ruinas de Angkor Wat, el complejo de templos más grande del mundo.",
+        "actividades": "Angkor Wat, Angkor Thom, Ta Prohm (Tomb Raider)",
+        "costo": 998000
+    },
+    {
+        "id": 1040,
+        "nombre": "Bali, Indonesia",
+        "descripcion": "Una isla paradisíaca conocida por sus bosques, volcanes y playas.",
+        "actividades": "Templos, Terrazas de arroz, Surf, Yoga",
+        "costo": 1282500
+    },
+    {
+        "id": 1041,
+        "nombre": "Marrakech, Marruecos",
+        "descripcion": "Una ciudad vibrante llena de mercados (zocos), palacios y jardines.",
+        "actividades": "Plaza Jemaa el-Fna, Jardín Majorelle, Zocos",
+        "costo": 1140000
+    },
+    {
+        "id": 1042,
+        "nombre": "Ciudad del Cabo, Sudáfrica",
+        "descripcion": "Ciudad portuaria con la imponente Montaña de la Mesa como telón de fondo.",
+        "actividades": "Montaña de la Mesa, Robben Island, Cabo de Buena Esperanza",
+        "costo": 1710000
+    },
+    {
+        "id": 1043,
+        "nombre": "Parque Nacional Serengueti, Tanzania",
+        "descripcion": "Famoso por la migración anual de ñus y cebras, y sus safaris.",
+        "actividades": "Safari fotográfico, Observación de la Gran Migración",
+        "costo": 3325000
+    },
+    {
+        "id": 1044,
+        "nombre": "Cataratas Victoria, Zambia/Zimbabue",
+        "descripcion": "La cortina de agua más grande del mundo, un espectáculo natural.",
+        "actividades": "Vuelo en helicóptero, Piscina del Diablo, Bungee jumping",
+        "costo": 1995000
+    },
+    {
+        "id": 1045,
+        "nombre": "Reikiavik, Islandia",
+        "descripcion": "La capital más septentrional del mundo, puerta de entrada a glaciares y auroras boreales.",
+        "actividades": "Círculo Dorado, Laguna Azul, Avistamiento de auroras boreales",
+        "costo": 2565000
+    },
+    {
+        "id": 1046,
+        "nombre": "Vancouver, Canadá",
+        "descripcion": "Una ciudad rodeada de montañas y mar, ideal para amantes de la naturaleza.",
+        "actividades": "Parque Stanley, Isla Granville, Montaña Grouse",
+        "costo": 1900000
+    },
+    {
+        "id": 1047,
+        "nombre": "Toronto, Canadá",
+        "descripcion": "La ciudad más grande de Canadá, multicultural y con la icónica Torre CN.",
+        "actividades": "Torre CN, Islas de Toronto, Cataratas del Niágara (excursión)",
+        "costo": 1805000
+    },
+    {
+        "id": 1048,
+        "nombre": "Ciudad de México, México",
+        "descripcion": "Una metrópolis vibrante con una rica historia azteca y colonial.",
+        "actividades": "Zócalo, Teotihuacán, Museo de Antropología, Coyoacán",
+        "costo": 1045000
+    },
+    {
+        "id": 1049,
+        "nombre": "La Habana, Cuba",
+        "descripcion": "Una ciudad detenida en el tiempo, con coches clásicos y arquitectura colonial.",
+        "actividades": "Paseo por La Habana Vieja, Malecón, Viaje en coche clásico",
+        "costo": 1187500
+    },
+    {
+        "id": 1050,
+        "nombre": "Cartagena, Colombia",
+        "descripcion": "Ciudad amurallada en la costa caribeña, llena de color y encanto.",
+        "actividades": "Ciudad Amurallada, Castillo de San Felipe, Islas del Rosario",
+        "costo": 1330000
+    },
+    {
+        "id": 1051,
+        "nombre": "Quito, Ecuador",
+        "descripcion": "Capital en los Andes, con un centro histórico colonial bien conservado.",
+        "actividades": "Mitad del Mundo, Centro Histórico, Teleférico",
+        "costo": 1092500
+    },
+    {
+        "id": 1052,
+        "nombre": "Islas Galápagos, Ecuador",
+        "descripcion": "Archipiélago volcánico famoso por su fauna única que inspiró a Darwin.",
+        "actividades": "Snorkel con leones marinos, Observación de tortugas gigantes, Cruceros",
+        "costo": 4275000
+    },
+    {
+        "id": 1053,
+        "nombre": "Salar de Uyuni, Bolivia",
+        "descripcion": "El desierto de sal más grande del mundo, un paisaje surrealista.",
+        "actividades": "Tour en 4x4, Isla Incahuasi, Hotel de Sal",
+        "costo": 1235000
+    },
+    {
+        "id": 1054,
+        "nombre": "Santiago, Chile",
+        "descripcion": "Capital chilena en un valle rodeado por los Andes y la Cordillera de la Costa.",
+        "actividades": "Cerro San Cristóbal, Cajón del Maipo, Viñedos cercanos",
+        "costo": 1377500
+    },
+    {
+        "id": 1055,
+        "nombre": "Isla de Pascua, Chile",
+        "descripcion": "Isla remota famosa por sus enigmáticas estatuas monumentales (Moai).",
+        "actividades": "Ver los Moai en Ahu Tongariki, Volcán Rano Kau, Playa de Anakena",
+        "costo": 3040000
+    },
+    {
+        "id": 1056,
+        "nombre": "Queenstown, Nueva Zelanda",
+        "descripcion": "Capital mundial de la aventura, rodeada de montañas y un lago cristalino.",
+        "actividades": "Bungee jumping, Jet boat, Senderismo, Milford Sound (excursión)",
+        "costo": 2375000
+    },
+    {
+        "id": 1057,
+        "nombre": "Melbourne, Australia",
+        "descripcion": "Conocida por su escena artística, cafés, callejones y eventos deportivos.",
+        "actividades": "Arte callejero, Great Ocean Road (excursión), Queen Victoria Market",
+        "costo": 2327500
+    },
+    {
+        "id": 1058,
+        "nombre": "Budapest, Hungría",
+        "descripcion": "La 'Perla del Danubio', famosa por sus balnearios termales y su parlamento.",
+        "actividades": "Parlamento Húngaro, Baños Szechenyi, Bastión de los Pescadores",
+        "costo": 1472500
+    },
+    {
+        "id": 1059,
+        "nombre": "Cracovia, Polonia",
+        "descripcion": "Ciudad medieval bien conservada, cerca del campo de concentración de Auschwitz.",
+        "actividades": "Plaza del Mercado, Castillo de Wawel, Auschwitz-Birkenau (excursión)",
+        "costo": 1330000
+    },
+    {
+        "id": 1060,
+        "nombre": "Zúrich, Suiza",
+        "descripcion": "Centro financiero global con un hermoso lago y un casco antiguo pintoresco.",
+        "actividades": "Lago de Zúrich, Casco Antiguo (Altstadt), Museo Nacional Suizo",
+        "costo": 2755000
+    },
+    {
+        "id": 1061,
+        "nombre": "Interlaken, Suiza",
+        "descripcion": "Pueblo tradicional entre dos lagos, base para explorar los Alpes suizos.",
+        "actividades": "Subir al Jungfraujoch, Parapente, Senderismo",
+        "costo": 2945000
+    },
+    {
+        "id": 1062,
+        "nombre": "Copenhague, Dinamarca",
+        "descripcion": "Capital danesa, famosa por su diseño, gastronomía y la estatua de la Sirenita.",
+        "actividades": "Jardines de Tívoli, Nyhavn, La Sirenita",
+        "costo": 1995000
+    },
+    {
+        "id": 1063,
+        "nombre": "Estocolmo, Suecia",
+        "descripcion": "Capital construida sobre 14 islas, con un casco antiguo medieval (Gamla Stan).",
+        "actividades": "Gamla Stan, Museo Vasa, Palacio Real",
+        "costo": 2042500
+    },
+    {
+        "id": 1064,
+        "nombre": "Oslo, Noruega",
+        "descripcion": "Rodeada de fiordos y bosques, combina naturaleza y vida urbana.",
+        "actividades": "Museo de Barcos Vikingos, Parque de Vigeland, Ópera de Oslo",
+        "costo": 2185000
+    },
+    {
+        "id": 1065,
+        "nombre": "Helsinki, Finlandia",
+        "descripcion": "Capital costera con un vibrante diseño y arquitectura, y fortalezas marítimas.",
+        "actividades": "Fortaleza de Suomenlinna, Catedral de Helsinki, Plaza del Mercado",
+        "costo": 1947500
+    },
+    {
+        "id": 1066,
+        "nombre": "Jaipur, India",
+        "descripcion": "La 'Ciudad Rosa', parte del Triángulo Dorado, con palacios y fuertes.",
+        "actividades": "Fuerte Amber, Hawa Mahal (Palacio de los Vientos), Palacio de la Ciudad",
+        "costo": 1140000
+    },
+    {
+        "id": 1067,
+        "nombre": "Agra, India",
+        "descripcion": "Hogar del icónico Taj Mahal, un monumento al amor.",
+        "actividades": "Taj Mahal, Fuerte de Agra, Fatehpur Sikri",
+        "costo": 1092500
+    },
+    {
+        "id": 1068,
+        "nombre": "Katmandú, Nepal",
+        "descripcion": "Puerta de entrada al Himalaya, con templos antiguos y plazas históricas.",
+        "actividades": "Plaza Durbar, Estupa de Boudhanath, Templo de Pashupatinath",
+        "costo": 950000
+    },
+    {
+        "id": 1069,
+        "nombre": "Las Vegas, EE.UU.",
+        "descripcion": "La capital mundial del entretenimiento, famosa por sus casinos y espectáculos.",
+        "actividades": "El Strip, Espectáculos, Excursión al Gran Cañón",
+        "costo": 1710000
+    },
+    {
+        "id": 1070,
+        "nombre": "Los Ángeles, EE.UU.",
+        "descripcion": "Centro de la industria del cine y la televisión, con playas famosas.",
+        "actividades": "Hollywood, Santa Mónica, Beverly Hills, Universal Studios",
+        "costo": 1995000
+    },
+    {
+        "id": 1071,
+        "nombre": "San Francisco, EE.UU.",
+        "descripcion": "Conocida por el puente Golden Gate, los tranvías y la isla de Alcatraz.",
+        "actividades": "Puente Golden Gate, Alcatraz, Fisherman's Wharf",
+        "costo": 2185000
+    },
+    {
+        "id": 1072,
+        "nombre": "Chicago, EE.UU.",
+        "descripcion": "La 'Ciudad de los Vientos', famosa por su arquitectura audaz y museos.",
+        "actividades": "Millennium Park (The Bean), Torre Willis, Navy Pier",
+        "costo": 1852500
+    },
+    {
+        "id": 1073,
+        "nombre": "Nueva Orleans, EE.UU.",
+        "descripcion": "Conocida por su música jazz, su cultura criolla y el festival Mardi Gras.",
+        "actividades": "Barrio Francés, Bourbon Street, Paseo en barco de vapor",
+        "costo": 1662500
+    },
+    {
+        "id": 1074,
+        "nombre": "Miami, EE.UU.",
+        "descripcion": "Famosa por sus playas, su vida nocturna y su influencia cubana.",
+        "actividades": "South Beach, Distrito Art Déco, Little Havana",
+        "costo": 1805000
+    },
+    {
+        "id": 1075,
+        "nombre": "Honolulu, Hawái, EE.UU.",
+        "descripcion": "Capital de Hawái, con la famosa playa de Waikiki y el sitio histórico de Pearl Harbor.",
+        "actividades": "Playa de Waikiki, Pearl Harbor, Diamond Head",
+        "costo": 2470000
+    },
+    {
+        "id": 1076,
+        "nombre": "Orlando, EE.UU.",
+        "descripcion": "La capital mundial de los parques temáticos.",
+        "actividades": "Walt Disney World, Universal Studios, SeaWorld",
+        "costo": 2090000
+    },
+    {
+        "id": 1077,
+        "nombre": "Montego Bay, Jamaica",
+        "descripcion": "Destino caribeño con playas de arena, resorts todo incluido y golf.",
+        "actividades": "Playas, Rafting en el río Martha Brae, Laguna Luminosa",
+        "costo": 1757500
+    },
+    {
+        "id": 1078,
+        "nombre": "Punta Cana, República Dominicana",
+        "descripcion": "Famosa por sus extensas playas de arena blanca y aguas turquesas.",
+        "actividades": "Playas, Snorkel, Excursión a Isla Saona",
+        "costo": 1615000
+    },
+    {
+        "id": 1079,
+        "nombre": "San José, Costa Rica",
+        "descripcion": "Capital de Costa Rica, puerta de entrada a volcanes y selvas tropicales.",
+        "actividades": "Volcán Poás, Jardines de la Paz, Museo Nacional",
+        "costo": 1235000
+    },
+    {
+        "id": 1080,
+        "nombre": "Ciudad de Panamá, Panamá",
+        "descripcion": "Una ciudad de contrastes con un casco antiguo colonial y rascacielos modernos.",
+        "actividades": "Canal de Panamá, Casco Viejo, Parque Metropolitano",
+        "costo": 1330000
+    },
+    {
+        "id": 1081,
+        "nombre": "Nairobi, Kenia",
+        "descripcion": "La única capital del mundo con un parque nacional de safari.",
+        "actividades": "Parque Nacional de Nairobi, Orfanato de Elefantes David Sheldrick, Centro de Jirafas",
+        "costo": 1900000
+    },
+    {
+        "id": 1082,
+        "nombre": "Zanzíbar, Tanzania",
+        "descripcion": "Archipiélago con playas de arena blanca y una histórica Ciudad de Piedra.",
+        "actividades": "Playas de Nungwi, Stone Town, Tour de las especias",
+        "costo": 1805000
+    },
+    {
+        "id": 1083,
+        "nombre": "Sevilla, España",
+        "descripcion": "Corazón de Andalucía, famosa por el flamenco, las tapas y su catedral.",
+        "actividades": "Catedral y Giralda, Alcázar, Plaza de España, Barrio de Santa Cruz",
+        "costo": 1567500
+    },
+    {
+        "id": 1084,
+        "nombre": "Granada, España",
+        "descripcion": "Hogar de la majestuosa Alhambra, un palacio y fortaleza morisca.",
+        "actividades": "La Alhambra, Generalife, Barrio del Albaicín, Sacromonte",
+        "costo": 1520000
+    },
+    {
+        "id": 1085,
+        "nombre": "Niza, Francia",
+        "descripcion": "Joya de la Costa Azul, con un famoso paseo marítimo y aguas azules.",
+        "actividades": "Paseo de los Ingleses, Casco Antiguo (Vieux Nice), Colina del Castillo",
+        "costo": 1852500
+    },
+    {
+        "id": 1086,
+        "nombre": "Lyon, Francia",
+        "descripcion": "Capital gastronómica de Francia, con un casco antiguo renacentista.",
+        "actividades": "Vieux Lyon, Basílica de Notre-Dame de Fourvière, Halles Paul Bocuse",
+        "costo": 1710000
+    },
+    {
+        "id": 1087,
+        "nombre": "Bruselas, Bélgica",
+        "descripcion": "Capital de la Unión Europea, famosa por su Grand-Place, chocolates y cerveza.",
+        "actividades": "Grand-Place, Atomium, Manneken Pis",
+        "costo": 1615000
+    },
+    {
+        "id": 1088,
+        "nombre": "Brujas, Bélgica",
+        "descripcion": "Ciudad medieval de cuento de hadas con canales, adoquines y edificios históricos.",
+        "actividades": "Paseo en barco por los canales, Plaza del Mercado (Markt), Campanario (Belfort)",
+        "costo": 1662500
+    },
+    {
+        "id": 1089,
+        "nombre": "Hamburgo, Alemania",
+        "descripcion": "Gran ciudad portuaria con canales, almacenes históricos y una vibrante vida nocturna.",
+        "actividades": "Speicherstadt, Elbphilharmonie, Miniatur Wunderland, Reeperbahn",
+        "costo": 1662500
+    },
+    {
+        "id": 1090,
+        "nombre": "Génova, Italia",
+        "descripcion": "Histórica ciudad portuaria, lugar de nacimiento de Cristóbal Colón.",
+        "actividades": "Acuario de Génova, Centro histórico (Caruggi), Palazzi dei Rolli",
+        "costo": 1520000
+    },
+    {
+        "id": 1091,
+        "nombre": "Cinque Terre, Italia",
+        "descripcion": "Cinco pintorescos pueblos costeros en la Riviera italiana.",
+        "actividades": "Senderismo entre los pueblos, Paseos en barco, Disfrutar de las vistas",
+        "costo": 1757500
+    },
+    {
+        "id": 1092,
+        "nombre": "Costa Amalfitana, Italia",
+        "descripcion": "Impresionante tramo de costa con pueblos como Positano y Amalfi.",
+        "actividades": "Recorrer la carretera costera, Visitar Positano, Amalfi y Ravello",
+        "costo": 2185000
+    },
+    {
+        "id": 1093,
+        "nombre": "Dubrovnik, Croacia",
+        "descripcion": "La 'Perla del Adriático', famosa por su imponente ciudad amurallada.",
+        "actividades": "Recorrer las murallas, Paseo por Stradun, Teleférico",
+        "costo": 1805000
+    },
+    {
+        "id": 1094,
+        "nombre": "Split, Croacia",
+        "descripcion": "Ciudad construida alrededor del antiguo Palacio de Diocleciano.",
+        "actividades": "Palacio de Diocleciano, Paseo Riva, Excursión a las islas (Hvar, Brač)",
+        "costo": 1710000
+    },
+    {
+        "id": 1095,
+        "nombre": "Mykonos, Grecia",
+        "descripcion": "Isla famosa por su animada vida nocturna, playas y molinos de viento.",
+        "actividades": "Playas (Paradise, Super Paradise), Molinos de viento, Pequeña Venecia",
+        "costo": 2280000
+    },
+    {
+        "id": 1096,
+        "nombre": "Fez, Marruecos",
+        "descripcion": "Capital cultural de Marruecos, con una medina medieval laberíntica.",
+        "actividades": "Medina de Fez (Fes el-Bali), Curtidurías, Madraza de Bou Inania",
+        "costo": 1092500
+    },
+    {
+        "id": 1097,
+        "nombre": "Petra, Jordania",
+        "descripcion": "Antigua ciudad excavada en la roca, famosa por su Tesoro y Monasterio.",
+        "actividades": "Recorrer el Siq hasta el Tesoro, Subir al Monasterio",
+        "costo": 1615000
+    },
+    {
+        "id": 1098,
+        "nombre": "Jerusalén, Israel",
+        "descripcion": "Ciudad santa para judíos, cristianos y musulmanes, llena de lugares sagrados.",
+        "actividades": "Ciudad Vieja, Muro de las Lamentaciones, Santo Sepulcro, Cúpula de la Roca",
+        "costo": 1900000
+    },
+    {
+        "id": 1099,
+        "nombre": "Tel Aviv, Israel",
+        "descripcion": "Ciudad moderna y vibrante en la costa mediterránea, famosa por sus playas y vida nocturna.",
+        "actividades": "Playas, Mercado del Carmelo, Puerto de Jaffa, Arquitectura Bauhaus",
+        "costo": 1995000
+    },
+    {
+        "id": 1100,
+        "nombre": "Chiang Mai, Tailandia",
+        "descripcion": "Ciudad montañosa en el norte de Tailandia, con templos y santuarios de elefantes.",
+        "actividades": "Santuarios de elefantes, Templos (Doi Suthep), Clases de cocina tailandesa",
+        "costo": 997500
+    }
+]

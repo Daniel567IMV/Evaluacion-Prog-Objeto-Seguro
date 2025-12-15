@@ -1,0 +1,9 @@
+{
+    "MYSQL_CONFIG": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "agencia_viajes"
+    },
+    "OPENTRIPMAP_API_KEY": "TU_API_KEY_AQUI"
+}
